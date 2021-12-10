@@ -18,6 +18,7 @@ html {
     display: grid;
     align-items: center;
     justify-items: center;
+    padding-bottom: 10%;
   }
   
   #main-holder {
@@ -114,7 +115,10 @@ html {
   }
 
   footer{
-      height: 20%;
+      position: absolute;
+      height: 10%;
+      bottom: 0;
+      padding: 1%;
       backdrop-filter: blur(30px);
       width: 100%;
   }
@@ -127,8 +131,12 @@ html {
       height: 30px;
   }
   #insta img{
-      height: 45px;
-      padding-left: -10px
+      position: absolute;
+      height: 50px;
+  }
+  #insta{
+      position: absolute;
+      padding-bottom: 50px;
   }
   #contact{
       float: left;
